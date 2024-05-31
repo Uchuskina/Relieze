@@ -1,0 +1,89 @@
+body {
+    background-color: rgba(240, 211, 182, 1);
+    border-radius: 25;
+}
+
+.logo {
+    width: 149px;
+    height: 153px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: rgba(240, 211, 182, 1);
+    border: 1px solid rgba(240, 211, 182, 1);
+    margin: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(89, 58, 40, 1);
+}
+
+.header:active {
+    box-shadow: 10px 5px 5px grey;
+}
+
+.about_cats_h1 {
+    color: rgba(89, 58, 40, 1);
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.about_cats {
+    text-decoration: underline rgba(191, 70, 0, 1);
+}
+
+.main_div_cats {
+    font-size: 18px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    margin-right: 50px;
+}
+
+.span {
+
+}
+
+.div_text_cats {
+    margin-right: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.bold_2 {
+    font-weight: 700;
+}
+
+.footer_logos {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -35px;
+}
+
+.Youtube {
+    width: 107px;
+    margin-top: -30px;
+}
+
+.footer {
+    margin-bottom: -30px;
+}
