@@ -1,0 +1,213 @@
+body {
+    background-color: rgba(240, 211, 182, 1);
+    border-radius: 25;
+}
+
+.logo {
+    width: 149px;
+    height: 153px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+button{
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: rgba(240, 211, 182, 1);
+    border: 1px solid rgba(240, 211, 182, 1);
+    margin: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(89, 58, 40, 1);
+}
+
+a.header{
+    text-decoration: none;
+}
+
+.header:active {
+    box-shadow: 10px 5px 5px grey;
+}
+
+.now {
+    text-decoration: underline rgba(191, 70, 0, 1);
+}
+
+.popular_now {
+    font-size: 28px;
+    color: rgba(89, 58, 40, 1);
+    margin-left: 50px;
+}
+
+.text_photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgba(89, 58, 40, 1);
+    font-size: 22px;
+    gap: 50px;
+}
+
+.about_activity {
+    font-size: 20px;
+    color: rgba(89, 58, 40, 1);
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.choose_activity {
+    border-radius: 30px;
+    background-color: rgba(89, 58, 40, 1);
+    color: rgba(228, 202, 176, 1);
+    font-size: 25px;
+    padding: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.choose_activity:active {
+    box-shadow: 10px 5px 5px grey;
+}
+
+.with_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.gallery {
+    background-color: rgba(255, 241, 227, 1);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery_1 {
+    width: 470px;
+}
+
+.filtr {
+    border-radius: 30px;
+    background-color: rgba(89, 58, 40, 1);
+    color: rgba(228, 202, 176, 1);
+    font-size: 25px;
+    padding: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.filtr:active {
+    box-shadow: 10px 5px 5px grey;
+}
+
+.card_activities {
+    background-color: rgba(252, 238, 226, 1);
+    border-radius: 20px;
+    border: 3px solid rgba(89, 58, 40, 1);
+    width: 400px;
+    height: 537px;
+    padding: 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.cards_activities {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.bold_cards {
+    font-weight: 700;
+}
+
+.name_of_activity {
+    font-weight: 700;
+    text-align: center;
+    color: rgba(252, 238, 226, 1);
+    background-color: rgba(89, 58, 40, 1);
+    border-radius: 15px;
+    padding: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn_call {
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgba(89, 58, 40, 1);
+    color: rgba(252, 238, 226, 1);
+    padding: 7px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 18px;
+
+}
+
+.btn_call_div {
+    position: absolute;
+    bottom: 20px;
+    width: 350px !important;
+    left: calc(50% - 175px);
+}
+
+.btn_call:active {
+    box-shadow: 10px 5px 5px grey;
+}
+
+.text_activities {
+    color: rgba(89, 58, 40, 1);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.bold_2 {
+    font-weight: 700;
+}
+
+.footer_logos {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -35px;
+}
+
+.Youtube {
+    width: 107px;
+    margin-top: -30px;
+}
+
+.footer {
+    margin-bottom: -30px;
+}

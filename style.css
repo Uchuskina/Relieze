@@ -12,6 +12,10 @@ body {
     font-weight: 700;
 }
 
+button{
+    cursor: pointer;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -26,6 +30,10 @@ header {
     padding: 10px;
     font-size: 20px;
     color: rgba(89, 58, 40, 1);
+}
+
+a.header{
+    text-decoration: none;
 }
 
 .header:active {
@@ -124,9 +132,9 @@ header {
 }
 
 .rectangle {
-	width: 1355px;
-	height: 342px;
-	background: rgba(247, 196, 137, 1);
+    width: 1355px;
+    height: 342px;
+    background: rgba(247, 196, 137, 1);
     border-radius: 60px;
     margin-right: 50px;
     margin-left: 50px;
@@ -212,9 +220,32 @@ header {
 .menu_2 {
     display: flex;
     align-items: center;
-    flex-direction: column;
     background-color: rgba(255, 241, 227, 1);
-    padding: 30px;
+    padding: 70px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu_2 img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.menu_2 a{
+    width: fit-content;
+    height: auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu_2 h3{
+    font-size: 26px;
+    margin: 20px 0 0 0;
 }
 
 .menu_button {

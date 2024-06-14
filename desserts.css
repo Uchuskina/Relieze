@@ -12,18 +12,14 @@ body {
     font-weight: 700;
 }
 
+button{
+    cursor: pointer;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-a.header{
-    text-decoration: none;
-}
-
-a.header:nth-child(3){
-    font-weight: 700;
 }
 
 .header {
@@ -36,41 +32,46 @@ a.header:nth-child(3){
     color: rgba(89, 58, 40, 1);
 }
 
+a.header{
+    text-decoration: none;
+}
+
 .header:active {
     box-shadow: 10px 5px 5px grey;
 }
 
-.about_cats_h1 {
+.cold_drinks_h1 {
     color: rgba(89, 58, 40, 1);
-    font-size: 32px;
     margin-left: 50px;
+    font-size: 28px;
 }
 
-.about_cats {
+.underline {
     text-decoration: underline rgba(191, 70, 0, 1);
 }
 
-.main_div_cats {
-    font-size: 19px;
+.cards_cold_drinks {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card_cold_drinks {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
-    gap: 150px;
+    background-color: rgba(252, 238, 226, 1);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.cold_drinks_text {
+    width: 300px;
     color: rgba(89, 58, 40, 1);
 }
 
-.first-image{
-    position: relative;
-    left: -100px;
-    bottom: -50px;
-    z-index: 2;
-}
-
-.second-image{
-    z-index: 1;
-    position: relative;
-    bottom: 50px;
+.font_family {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer {

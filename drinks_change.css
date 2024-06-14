@@ -1,0 +1,118 @@
+body {
+    background-color: rgba(240, 211, 182, 1);
+    border-radius: 25;
+}
+
+.logo {
+    width: 149px;
+    height: 153px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+button{
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: rgba(240, 211, 182, 1);
+    border: 1px solid rgba(240, 211, 182, 1);
+    margin: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(89, 58, 40, 1);
+}
+
+a.header{
+    text-decoration: none;
+}
+
+.header:active {
+    box-shadow: 10px 5px 5px grey;
+}
+
+.btn {
+    border-radius: 70px;
+    border: 3px solid rgba(247, 196, 137, 1);
+    background-color: rgba(247, 196, 137, 1);
+    font-size: 80px;
+    color: rgba(89, 58, 40, 1);
+    width: 1000px;
+    height: 160px;
+}
+
+.menu_2 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 241, 227, 1);
+    padding: 110px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu_2 img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.menu_2 a{
+    width: fit-content;
+    height: auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu_2 h3{
+    font-size: 26px;
+    margin: 20px 0 0 0;
+}
+
+.menu_button {
+    margin: 14px;
+}
+
+.btn:active {
+    box-shadow: 10px 5px 5px grey;
+}
+
+.footer {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+.bold_2 {
+        font-weight: 700;
+    }
+    
+.footer_logos {
+        width: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: -35px;
+    }
+    
+.Youtube {
+        width: 107px;
+        margin-top: -30px;
+    }
+    
+.footer {
+        margin-bottom: -30px;
+    }
