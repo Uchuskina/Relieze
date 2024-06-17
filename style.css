@@ -32,6 +32,10 @@ header {
     color: rgba(89, 58, 40, 1);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a.header{
     text-decoration: none;
 }
